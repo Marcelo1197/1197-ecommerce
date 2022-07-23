@@ -1,0 +1,68 @@
+/* Reset del margin y padding en los navegadores */
+*{
+    margin:0;
+    padding:0;
+}
+p {
+    font-family: verdana;/*tipo de letras*/
+    text-align: justify; /* alineacion del texto */
+    color: red; /*color de la fuente*/ 
+    font-size:24 px;/*tamaño de la fuente*/ 
+    font-style: italic; /*estilo */
+    font-weight: bold; /* negrito o fuerte*/
+    width: 500px; /* configuro un ancho determinado para los parrafos */
+}
+
+.parrafos {
+    display: flex; /* Defino mi contenedor padre <div> como un flex container, para posicionar mejor los contenedor */
+    flex-direction: column; /* Defino mi layout en columnas, para ubicar los parrafos uno debajo del otro */
+    align-items: center; /* Alineo los contenedores hijos en el centro de la cross-axis*/
+    background-color: green ; 
+    padding-top: 50px; 
+    padding-left: 10px; 
+    padding-bottom: 60px; 
+    padding-right: 300px;
+}
+
+body {
+    background-color: lightblue; /*color de fondo del body*/ 
+}
+    
+h1 { /* color y alineación de la etiqueta h1*/
+    color: white;
+    font-weight: bold; /* negrito o fuerte*/ text-align: center;/*alineación*/
+}
+
+.titulo {
+    background-color: #92a8d1; 
+    margin: 20px;
+}
+
+footer {
+    background-color: GoldenRod;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 200px;
+}
+
+ul {
+    list-style: none;
+  }
+  
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Alineo horizontalmente los contenedores hijos a la derecha */
+    height: 100px;
+    background-color: #92a8d1;
+}
+  
+nav ul {
+    display: flex;
+    justify-content: space-around; /* Distribuyo los iconos horizontalmente a la misma distancia entre ellos */
+    width: 300px;
+    align-items: center; /* centro verticalmente los elementos hijos */
+    padding-right: 10px; /* separo 10px de la derecha mi nav */
+}

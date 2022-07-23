@@ -1,0 +1,23 @@
+.quienesSomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.quienesSomos div {
+    width: 800px;
+}
+
+.nuestroEquipo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nuestroEquipo__cards {
+    width: 800px;
+}
+
+.nuestroEquipo__cards img {
+    width: 100px !important;
+    height: 100px !important;
+}

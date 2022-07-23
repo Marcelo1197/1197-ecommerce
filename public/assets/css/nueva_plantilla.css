@@ -1,0 +1,33 @@
+body {
+    background-color: lightsteelblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ 
+footer {
+    min-height: 100px;
+    background-color: steelblue;
+    margin-top: auto;
+}
+ 
+@media screen and (max-width: 767px) {
+    img {
+        width: 30%;
+        height: 30%;
+    }
+}
+ 
+@media screen and (min-width: 768px) {
+        img {
+            width: 70%;
+            height: 70%;
+        }
+}
+ 
+@media screen and (min-width: 1200px) {
+    img {
+        width: 30%;
+        height: 30%;
+    }
+}

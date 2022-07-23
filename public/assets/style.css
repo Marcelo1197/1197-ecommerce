@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+footer {
+    display: flex;
+    text-align: center;
+    min-height: 100px;
+    width: 100%;
+    background: #212121;
+    color: #ffffff;
+    margin-top: auto; /* tip para ubicar el footer en el pie de la pagina, junto con height: 100vh */
+  }
